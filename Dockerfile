@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:latest
 MAINTAINER tsertkov <tsertkov@gmail.com>
 
 ENV TERM linux
