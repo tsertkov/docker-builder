@@ -1,5 +1,7 @@
 # docker-builder
 
+[![](https://badge.imagelayers.io/tsertkov/builder:latest.svg)](https://imagelayers.io/?images=tsertkov/builder:latest 'Get your own badge on imagelayers.io')
+
 > Docker image for dedicated builds.
 
 Based on latest Ubuntu and contains:
