@@ -3,6 +3,7 @@
 > Docker image for dedicated builds.
 
 Based on latest Ubuntu and contains:
+
 - build-essential
 - golang
 - git
@@ -23,4 +24,4 @@ GOPATH=$(pwd) go get github.com/golang/example/hello
 cp bin/hello /build/hello
 ```
 
-Check scripts in `examples/` for more...
+Check [hellogo.sh](https://github.com/tsertkov/docker-builder/blob/master/examples/hellogo.sh) example compiling hello go app with docker-builder.
