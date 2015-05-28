@@ -1,6 +1,6 @@
 # docker-builder
 
-Docker image for compiling applications with essential build tools.
+> Docker image for dedicated builds.
 
 Based on latest Ubuntu and contains:
 - build-essential
@@ -10,5 +10,5 @@ Based on latest Ubuntu and contains:
 
 ## Usage
 
-Get the image from hub or build it yourself.
+Get the image from hub or build it yourself:
 `docker pull tsertkov/docker-builder`
