@@ -1,3 +1,7 @@
+# Docker-Builder
+#
+# VERSION 0.1
+
 FROM ubuntu:latest
 MAINTAINER tsertkov <tsertkov@gmail.com>
 
