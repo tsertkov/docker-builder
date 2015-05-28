@@ -13,7 +13,7 @@ RUN \
     git \
     mercurial
 
-VOLUME ["/build"]
-VOLUME ["/src"]
+VOLUME ["/build", "/src"]
 WORKDIR /src
-ENTRYPOINT /build/build.sh
+CMD ["/build/build.sh"]
+ENTRYPOINT ["/bin/sh"]
