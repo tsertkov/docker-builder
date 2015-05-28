@@ -1,8 +1,11 @@
 # docker-builder
 
+[![](https://badge.imagelayers.io/tsertkov/builder:latest.svg)](https://imagelayers.io/?images=tsertkov/builder:latest 'Get your own badge on imagelayers.io')
+
 > Docker image for dedicated builds.
 
 Based on latest Ubuntu and contains:
+
 - build-essential
 - golang
 - git
@@ -22,3 +25,5 @@ Image expects `/build` data volume to be mounted and contain `build.sh` shell sc
 GOPATH=$(pwd) go get github.com/golang/example/hello
 cp bin/hello /build/hello
 ```
+
+Check [hellogo.sh](https://github.com/tsertkov/docker-builder/blob/master/examples/hellogo.sh) example compiling hello go app with docker-builder.
