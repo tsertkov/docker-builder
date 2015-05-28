@@ -22,3 +22,5 @@ Image expects `/build` data volume to be mounted and contain `build.sh` shell sc
 GOPATH=$(pwd) go get github.com/golang/example/hello
 cp bin/hello /build/hello
 ```
+
+Check scripts in `examples/` for more...
