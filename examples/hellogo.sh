@@ -10,7 +10,7 @@ EOT
 
 docker run \
   --rm \
-  -v ${DIR}:/build \
+  -v "${DIR}:/build" \
   tsertkov/builder \
 
 if [ $? -ne 0 ]; then
